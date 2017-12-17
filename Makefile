@@ -1,5 +1,6 @@
 SOURCE_DIR=.
-JAR=$(SOURCE_DIR):javahelp-2.0.05.jar:jnlp-1.5.0.jar
+PATH_SPILT=:
+JAR=$(SOURCE_DIR)$(PATH_SPILT)javahelp-2.0.05.jar$(PATH_SPILT)jnlp-1.5.0.jar
 
 all: \
 	autoroute/AutorouteControl.class \
